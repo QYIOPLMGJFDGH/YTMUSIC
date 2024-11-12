@@ -29,7 +29,7 @@
       }, 
       "MONGO_DB_URL": {
         "description": "𝐆𝐄𝐓 𝐀 𝐌𝐎𝐍𝐆𝐎𝐃𝐁 𝐔𝐑𝐋 𝐅𝐑𝐎𝐌 https://cloud.mongodb.com. 𝐈𝐅 𝐘𝐎𝐔 𝐃𝐎𝐍𝐓 𝐇𝐀𝐕𝐄 𝐓𝐇𝐄𝐍 𝐔𝐒𝐄 𝐀𝐋𝐑𝐄𝐀𝐃𝐘 𝐅𝐈𝐋𝐋𝐄𝐃 𝐌𝐎𝐍𝐆𝐎.",
-        "value": "mongodb+srv://Lucifer121:vivek@jaishreeram.z0o2fuy.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://UTTAM90:UTTAM90@uttam2.pavuv.mongodb.net/?retryWrites=true&w=majority&appName=UTTAM2",
         "required": true
       },
       "OWNER_ID": {
