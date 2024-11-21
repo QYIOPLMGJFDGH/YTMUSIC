@@ -118,7 +118,7 @@ async def mb_plugin_button(client, CallbackQuery):
     keyboard = InlineKeyboardMarkup([
     [InlineKeyboardButton("⏤͟͟͞͞★ ᴜᴛᴛᴀᴍ", url="https://t.me/UTTAM470"),  # Back Button
      InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/BABY09_WORLD")],  # Update Button
-    [InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="modebot_cb")]  # Support Button
+    [InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="ubot_cb")]  # Support Button
 ])
     if cb == "Okieeeeee":
         await CallbackQuery.edit_message_text(f"`something errors`",reply_markup=keyboard,parse_mode=enums.ParseMode.MARKDOWN)
