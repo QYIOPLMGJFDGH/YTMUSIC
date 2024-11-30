@@ -1,6 +1,23 @@
 # helper for strings
 
 class Helper(object):
+    SPM = '''```
+⌬ ๏ Bᴇɴɪғɪᴛ ᴏғ sᴜʙsᴄʀɪᴘᴛɪᴏɴ```
+
+**⌬ Yᴏᴜ ᴄᴀɴ ғʀᴇᴇ ᴘʀᴏᴍᴏᴛɪᴏɴ ᴏғ [ʙᴀʙʏ-ᴍᴜsɪᴄ](https://t.me/BABY09_WORLD) Aʟʟ**
+
+```\n𝗢𝗡𝗟𝗬 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 𝗨𝗦𝗘𝗥 [𝗖𝗠𝗗]```
+
+**⤿ /mystats - Tᴏ ᴄʜᴇᴄᴋ ʏᴏᴜ sᴜʙsᴄʀɪᴘᴛɪᴏɴ sᴛᴀᴛᴜs
+⤿ [/broadcast -user -pin -pinloud -nobot -assistant] - Tᴏ ᴘʀᴏᴍᴏᴛɪᴏɴ ʟɪᴋᴇ
+⤿ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀᴅᴠᴀɴᴄᴇ [ᴀɪ ᴛᴏᴏʟ](https://t.me/TB_AI_BOT)
+```\n𝗢𝗡𝗟𝗬 𝗢𝗪𝗡𝗘𝗥 [𝗖𝗠𝗗]```
+⤿ [/add {user_id} days] - Tᴏ ᴀᴅᴅ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴜsᴇʀ
+⤿ [/rm {user_id}]- To ʀᴇᴍᴏᴠᴇ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴜsᴇʀ
+⤿ - [/sublist]- Tᴏ ᴄʜᴇᴄᴋ ᴀʟʟ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ʟɪsᴛ
+⌬ 𝗗𝗠ᴏᴡɴᴇʀ 𝗙𝗢𝗥 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 🕵️
+**'''
+    
     HELP_active = """```
 <b><u>⌬ Aᴄᴛɪᴠᴇ ᴄᴏᴍᴍᴀɴᴅ: ⌬</u></b>```
 
