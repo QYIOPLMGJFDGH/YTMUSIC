@@ -123,7 +123,7 @@ async def mb_plugin_button(client, CallbackQuery):
 
     # Prepare the keyboard
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="cplus HELP_raid")]  # Support Button
+        [InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="cplus HELP_host")]  # Support Button
     ])
 
     # Handle the callback logic
