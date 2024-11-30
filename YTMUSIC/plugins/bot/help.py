@@ -111,6 +111,28 @@ async def mb_plugin_button(client, CallbackQuery):
     else:
         await CallbackQuery.edit_message_text(getattr(Helper, cb), reply_markup=keyboard)
 
+@app.on_callback_query(filters.regex('spm'))      
+async def mb_plugin_button(client, CallbackQuery):
+    callback_data = CallbackQuery.data.strip()
+
+    # Check if the callback data has a space before trying to split
+    if ' ' in callback_data:
+        cb = callback_data.split(None, 1)[1]
+    else:
+        cb = callback_data  # If no space, the callback data itself is used
+
+    # Prepare the keyboard
+    keyboard = InlineKeyboardMarkup([
+        [InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="cplus HELP_raid")]  # Support Button
+    ])
+
+    # Handle the callback logic
+    if cb == "Okieeeeee":
+        await CallbackQuery.edit_message_text(f"`something errors`", reply_markup=keyboard, parse_mode=enums.ParseMode.MARKDOWN)
+    else:
+        # Assuming Helper is a valid class and cb contains a valid attribute
+        await CallbackQuery.edit_message_text(getattr(Helper, cb, "Invalid Callback"), reply_markup=keyboard)
+
 @app.on_callback_query(filters.regex('dplus'))      
 async def mb_plugin_button(client, CallbackQuery):
     callback_data = CallbackQuery.data.strip()
@@ -118,6 +140,7 @@ async def mb_plugin_button(client, CallbackQuery):
     keyboard = InlineKeyboardMarkup([
     [InlineKeyboardButton("⏤͟͟͞͞★ ᴜᴛᴛᴀᴍ", url="https://t.me/UTTAM470"),  # Back Button
      InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/BABY09_WORLD")],  # Update Button
+    [InlineKeyboardButton("Sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴘʟᴀɴ 🫂", callback_data="spm SPM")],
     [InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="ubot_cb")]  # Support Button
 ])
     if cb == "Okieeeeee":
